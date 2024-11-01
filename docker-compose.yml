@@ -19,4 +19,4 @@ services:
       - /app/node_modules
       - .:/app
     # 覆盖默认命令
-    command: ["npm", "run", "dev"]
+    command: ["npm", "run", "test"]
